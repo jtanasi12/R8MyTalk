@@ -15,7 +15,7 @@ Upon success R8MyTalk will be hosted on your local machine and can be viewed usi
 
 Render
 R8MyTalk is currently deployed using render as a hosting service. It is currently enrolled in the free plan which is slow when initially loading (approximately 1 min).
-URL: https://r8temytalk-nkqs.onrender.com
+URL: https://r8mytalk.onrender.com/
 Render Sign-In credentials:
 Email: cs510test1234@gmail.com 
 Password: CodeDevilsAreGreat!
