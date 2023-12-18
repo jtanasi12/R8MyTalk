@@ -16,15 +16,6 @@ Upon success R8MyTalk will be hosted on your local machine and can be viewed usi
 Render
 R8MyTalk is currently deployed using render as a hosting service. It is currently enrolled in the free plan which is slow when initially loading (approximately 1 min).
 URL: https://r8mytalk.onrender.com/
-Render Sign-In credentials:
-Email: cs510test1234@gmail.com 
-Password: CodeDevilsAreGreat!
-Render is set up to deploy what is in the main branch of the associated github project which is currently https://github.com/Gulloje/CS510Project. When changes are pushed to main they will show on the hosted website. 
-Firebase
-Google Firebase services are being used to store information. https://console.firebase.google.com/project/r8mytalk/storage/r8mytalk.appspot.com/files
-FireBase Sign-In credentials:
-Email: cs510test1234@gmail.com
-Password: 1234qwerASDF!
 
 R8MyTalk is using Authentication for authentication, FireStore Database for user account information, and Storage for user files (QR codes, presentation files). For help regarding Firebase refer to the R8MyTalk source code or documentation within Firebase.
  Functionalities.
@@ -50,14 +41,6 @@ Feedback Questions
 Audience members are presented with a set of fixed questions assessing the speaker's presentation, along with a custom question and an open-ended query about the event description. This ensures a comprehensive understanding of the audience's perspective.
 
 Contact Information
-
-At the end of the survey, audience members are prompted to provide contact information, including name, phone number, email, and role. This helps speakers connect with their audience more effectively.
-Presentation Download
-Audience members have the option to download the presentation materials, providing a convenient resource for future reference.
-Functionality Walkthroughs
-Scenario: Create New Event
-Navigate to https://r8temytalk-nkqs.onrender.com
-Click Log In on navigation bar
 
 Log in OR create account
 
@@ -92,19 +75,6 @@ Fill out contact information if you want to keep in communication with the speak
 
 
 Click “Download Presentation Now!!!” to download presentation files to your device
- 
- 
-Scenario: Speaker’s Event Review
-Go to https://r8temytalk-nkqs.onrender.com and log in.
-Click on the event name in the table that you wish to review.
-Hover over a specific color on a wheel to see how many votes you received in that category.
-
-Scroll down to see written feedback responses to the unique question as well as testimonials.
-Scenario: Speaker’s Contacts Review
-Go to https://r8temytalk-nkqs.onrender.com and log in.
-Click on “Contacts” in the navigation bar.
-
-Click on the event name to go to specific event feedback
 
 
 Click “Download Contacts” button
